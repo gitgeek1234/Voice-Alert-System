@@ -10,13 +10,6 @@ Developed between Oct 2024 – Jan 2025, this project is a specialized feature d
 - Dynamic Pattern Matching: Uses Dynamic Time Warping (DTW) to account for variations in speech speed and tone.
 - Lightweight Architecture: Designed for mobile/edge deployment, requiring minimal computational overhead compared to heavy Deep Learning models.
 
-Category,Tools / Libraries
-Language,Python 3.x
-Signal Processing,Librosa
-Numerical Computing,NumPy
-Audio I/O,"PyAudio, SoundFile"
-Deployment / UI,"Gradio, Google Colab"
-
 The system identifies voice patterns by extracting unique "fingerprints" from audio signals.
 1. Feature Extraction (MFCC)
 The raw audio is converted into Mel-Frequency Cepstral Coefficients (MFCCs). This represents the power spectrum of the sound based on the human ear's perception (the Mel Scale).

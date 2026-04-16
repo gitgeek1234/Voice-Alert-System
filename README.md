@@ -4,7 +4,7 @@
 Real-Time Safety Monitoring via Spectral Fingerprinting
 Developed between Oct 2024 – Jan 2025, this project is a specialized feature designed for integration into Women’s Safety Applications. It utilizes digital signal processing (DSP) and machine learning techniques to identify specific distress phrases (e.g., "Help!", "Emergency") in real-time, even under noisy environmental conditions.
 
-🚀 Key Features
+🚀 Key Features:
 - Real-Time Keyword Spotting (KWS): Continuous audio monitoring with sub-100ms processing latency.
 - Noise Robustness: Optimized signal preprocessing and threshold tuning to reduce false positives in public spaces.
 - Dynamic Pattern Matching: Uses Dynamic Time Warping (DTW) to account for variations in speech speed and tone.

@@ -14,6 +14,7 @@ The system identifies voice patterns by extracting unique "fingerprints" from au
 1. Feature Extraction (MFCC)
 The raw audio is converted into Mel-Frequency Cepstral Coefficients (MFCCs). This represents the power spectrum of the sound based on the human ear's perception (the Mel Scale).
 The conversion from frequency ($f$) to mels ($m$) is defined by:
+
 $$m = 2595 \log_{10}\left(1 + \frac{f}{700}\right)$$
 
 2. Pattern Comparison (DTW)
